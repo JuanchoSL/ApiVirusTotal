@@ -13,7 +13,7 @@ use JuanchoSL\HttpData\Bodies\Creators\MultipartCreator;
 use JuanchoSL\HttpData\Factories\StreamFactory;
 use Psr\Http\Message\RequestInterface;
 
-class FilesRequest extends AbstractVirusTotalV2 implements ReportableInterface, ScanneableInterface, ReScanneableInterface
+class FilesRequest extends AbstractVirusTotalV2 implements ReportableInterface, ScanneableInterface
 {
 
     public function report(string $value): RequestInterface
@@ -54,7 +54,7 @@ class FilesRequest extends AbstractVirusTotalV2 implements ReportableInterface, 
             ->withAddedHeader('Content-Type', 'multipart/form-data');
     }
 
-    public function rescan(string $value): RequestInterface
+    protected function rescan(string $value): RequestInterface
     {
         $uri = $this->uri_factory->createUri($this->apiURL . "/file/rescan");
         $stream = $this->stream_factory->createStream(http_build_query(['apikey' => $this->apiKey, 'resource' => $value]));

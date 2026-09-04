@@ -70,12 +70,14 @@ class VirusTotalV3Factory
         return $this->client->sendRequest($request);
     }
 
-    public function fileScan($pathFile, $name = null)
+    public function fileScan($pathFile)
     {
-
+        $api = FilesRequest::getInstance($this->api_key);
+        $request = $api->scan($pathFile);
+        return $this->client->sendRequest($request);
     }
 
-    public function fileRescan($hash)
+    protected function fileRescan($hash)
     {
 
     }

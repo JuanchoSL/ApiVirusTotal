@@ -49,14 +49,11 @@ class VirusTotalV2Factory
         return $this->client->sendRequest($request);
     }
 
-    public function fileScan($pathFile, $name = null)
+    public function fileScan($pathFile)
     {
-
-    }
-
-    public function fileRescan($hash)
-    {
-
+        $api = FilesRequest::getInstance($this->api_key);
+        $request = $api->scan($pathFile);
+        return $this->client->sendRequest($request);
     }
 
     public function fileReport($hash): ResponseInterface
