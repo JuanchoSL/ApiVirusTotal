@@ -3,6 +3,7 @@
 namespace JuanchoSL\ApiVirusTotal\Tests\Integration\v2;
 
 use JuanchoSL\ApiVirusTotal\Infrastructure\Factories\VirusTotalV2Factory;
+use JuanchoSL\CurlClient\Wrappers\PsrCurlClient;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Client\ClientInterface;
 
@@ -13,7 +14,7 @@ class FileIntegrationTest extends TestCase
     protected ClientInterface $requester;
     public function setUp(): void
     {
-        $this->api = new VirusTotalV2Factory(getenv('VIRUS_TOTAL_APIKEY'));
+        $this->api = new VirusTotalV2Factory(getenv('VIRUS_TOTAL_APIKEY'), new PsrCurlClient());
     }
     /*
         public function testFileScan()

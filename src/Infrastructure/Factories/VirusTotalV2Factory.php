@@ -6,7 +6,6 @@ use JuanchoSL\ApiVirusTotal\Infrastructure\Repositories\V2\DomainsRequest;
 use JuanchoSL\ApiVirusTotal\Infrastructure\Repositories\V2\FilesRequest;
 use JuanchoSL\ApiVirusTotal\Infrastructure\Repositories\V2\IpsRequest;
 use JuanchoSL\ApiVirusTotal\Infrastructure\Repositories\V2\UrlsRequest;
-use JuanchoSL\CurlClient\Wrappers\PsrCurlClient;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\ResponseInterface;
 
@@ -16,10 +15,10 @@ class VirusTotalV2Factory
     protected string $api_key;
     protected ClientInterface $client;
 
-    public function __construct(string $api_key)
+    public function __construct(string $api_key, ClientInterface $client_requester)
     {
         $this->api_key = $api_key;
-        $this->client = new PsrCurlClient();
+        $this->client = $client_requester;
     }
 
     public function urlScan($url): ResponseInterface

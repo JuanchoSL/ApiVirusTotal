@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ada822a3b08fec0682f8535358183d2",
+    "content-hash": "ab403e27b8446f2806f54544e9b795b4",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -64,103 +64,29 @@
             "time": "2020-11-24T22:02:12+00:00"
         },
         {
-            "name": "juanchosl/curlclient",
-            "version": "1.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JuanchoSL/CurlClient.git",
-                "reference": "6fb54c09ac120422b919f3b8dda05dd4b55cc151"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/CurlClient/zipball/6fb54c09ac120422b919f3b8dda05dd4b55cc151",
-                "reference": "6fb54c09ac120422b919f3b8dda05dd4b55cc151",
-                "shasum": ""
-            },
-            "require": {
-                "composer-runtime-api": "^2.2",
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "fig/http-message-util": "1.1.*",
-                "juanchosl/httpheaders": "1.0.*",
-                "juanchosl/requestlistener": "dev-master",
-                "php": "^8.1",
-                "psr/http-client": "1.0.*",
-                "psr/http-factory": "1.1.*",
-                "psr/http-message": "^2.0",
-                "psr/log": "^3.0"
-            },
-            "require-dev": {
-                "apigen/apigen": "v7.0.0-alpha.6",
-                "juanchosl/logger": "1.1.*",
-                "phpstan/phpstan": "1.9.1",
-                "phpunit/phpunit": "10.5.*"
-            },
-            "bin": [
-                "bin/curlclient"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "JuanchoSL\\CurlClient\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Juan Sánchez Lecegui",
-                    "email": "Juan.Sanchez@tecnicosweb.com",
-                    "homepage": "https://www.linkedin.com/in/juansanchezlecegui/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A small, lightweight utility to perform curl calls using GET, POST, PUT, PACTH, DELETE, HEAD, TRACE, OPTIONS methods...",
-            "homepage": "https://github.com/JuanchoSL/CurlClient",
-            "keywords": [
-                "client",
-                "curl",
-                "delete",
-                "get",
-                "head",
-                "options",
-                "patch",
-                "post",
-                "psr18",
-                "psr7",
-                "put",
-                "request",
-                "trace"
-            ],
-            "support": {
-                "source": "https://github.com/JuanchoSL/CurlClient/tree/1.0.7"
-            },
-            "time": "2025-12-26T23:54:39+00:00"
-        },
-        {
             "name": "juanchosl/datamanipulation",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/DataManipulation.git",
-                "reference": "3bb89aa6afe04becbeaa37bbd03e202dc189b913"
+                "reference": "05fbc66447af635f96dfc4bc6ae72a209f87f1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/DataManipulation/zipball/3bb89aa6afe04becbeaa37bbd03e202dc189b913",
-                "reference": "3bb89aa6afe04becbeaa37bbd03e202dc189b913",
+                "url": "https://api.github.com/repos/JuanchoSL/DataManipulation/zipball/05fbc66447af635f96dfc4bc6ae72a209f87f1f0",
+                "reference": "05fbc66447af635f96dfc4bc6ae72a209f87f1f0",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^8.0"
+                "juanchosl/validators": "1.0.*",
+                "php": "^8.0",
+                "psr/log": "3.0.*"
             },
             "require-dev": {
+                "juanchosl/logger": "1.1.*",
                 "phpstan/phpstan": "1.12.*",
-                "phpunit/phpunit": "9.6.*"
+                "phpunit/phpunit": "9.6.*|10.5.*"
             },
             "default-branch": true,
             "type": "library",
@@ -184,93 +110,20 @@
             "description": "Little methods collection in order to manipulate variables contents",
             "homepage": "https://github.com/JuanchoSL/DataManipulation",
             "keywords": [
-                "debug",
-                "log"
+                "arrays",
+                "manipulation",
+                "numbers",
+                "strings",
+                "variables"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/DataManipulation/tree/master"
+                "source": "https://github.com/JuanchoSL/DataManipulation/tree/1.0"
             },
-            "time": "2025-12-16T20:26:03+00:00"
-        },
-        {
-            "name": "juanchosl/datatransfer",
-            "version": "1.0.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JuanchoSL/DataTransfer.git",
-                "reference": "eb67c798532b2bd1d895740f5861be7e8235a2e0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/DataTransfer/zipball/eb67c798532b2bd1d895740f5861be7e8235a2e0",
-                "reference": "eb67c798532b2bd1d895740f5861be7e8235a2e0",
-                "shasum": ""
-            },
-            "require": {
-                "composer-runtime-api": "^2.2",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "juanchosl/exceptions": "1.0.*",
-                "juanchosl/httpheaders": "1.0.*",
-                "juanchosl/validators": "1.0.*",
-                "php": "^8.1",
-                "psr/http-server-handler": "1.0.*"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "1.12.*",
-                "phpunit/phpunit": "9.6.*"
-            },
-            "suggest": {
-                "ext-xlswriter": "*",
-                "ext-yaml": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "JuanchoSL\\DataTransfer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Juan Sánchez Lecegui",
-                    "email": "Juan.Sanchez@tecnicosweb.com",
-                    "homepage": "https://www.linkedin.com/in/juansanchezlecegui/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A small, lightweight utility to read values and properties from distinct sources using the same methodology",
-            "homepage": "https://github.com/JuanchoSL/DataTransfer",
-            "keywords": [
-                "array",
-                "csv",
-                "data converter",
-                "data transfer objects",
-                "dto",
-                "entity",
-                "file contents",
-                "ini",
-                "json",
-                "object",
-                "simplexmlelement",
-                "tab separated values",
-                "tsv",
-                "values",
-                "xlsx",
-                "xml",
-                "yaml"
-            ],
-            "support": {
-                "source": "https://github.com/JuanchoSL/DataTransfer/tree/1.0.13"
-            },
-            "time": "2025-11-28T21:12:15+00:00"
+            "time": "2026-08-13T22:35:21+00:00"
         },
         {
             "name": "juanchosl/exceptions",
-            "version": "1.0.6",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/Exceptions.git",
@@ -289,6 +142,7 @@
             "require-dev": {
                 "phpunit/phpunit": "9.6.*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -319,23 +173,26 @@
         },
         {
             "name": "juanchosl/httpdata",
-            "version": "1.0.6",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/HttpData.git",
-                "reference": "21475824f6b6afe2d69410c8e33c1bce45bff809"
+                "reference": "664a650788e003e57783f2859068c7dee71eee16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/HttpData/zipball/21475824f6b6afe2d69410c8e33c1bce45bff809",
-                "reference": "21475824f6b6afe2d69410c8e33c1bce45bff809",
+                "url": "https://api.github.com/repos/JuanchoSL/HttpData/zipball/664a650788e003e57783f2859068c7dee71eee16",
+                "reference": "664a650788e003e57783f2859068c7dee71eee16",
                 "shasum": ""
             },
             "require": {
+                "ext-fileinfo": "*",
                 "ext-mbstring": "*",
                 "fig/http-message-util": "1.1.*",
+                "juanchosl/datamanipulation": "1.0.*",
                 "juanchosl/exceptions": "1.0.*",
                 "juanchosl/httpheaders": "1.0.*",
+                "juanchosl/validators": "1.0.*",
                 "php": "^8.0",
                 "psr/http-client": "1.0.*",
                 "psr/http-factory": "1.1.*",
@@ -343,8 +200,9 @@
             },
             "require-dev": {
                 "phpstan/phpstan": "1.12.*",
-                "phpunit/phpunit": "10.5.*"
+                "phpunit/phpunit": "9.6.* | 10.5.*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -377,154 +235,37 @@
                 "uri"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/HttpData/tree/1.0.6"
+                "source": "https://github.com/JuanchoSL/HttpData/tree/1.0"
             },
-            "time": "2025-12-27T00:07:19+00:00"
+            "time": "2026-09-02T21:30:25+00:00"
         },
         {
             "name": "juanchosl/httpheaders",
-            "version": "1.0.1",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/HttpHeaders.git",
-                "reference": "e599267c674a6295617ebf6c400fe69972a6343a"
+                "reference": "c12f1016c78995f839495a36ae463a077bc86cad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/HttpHeaders/zipball/e599267c674a6295617ebf6c400fe69972a6343a",
-                "reference": "e599267c674a6295617ebf6c400fe69972a6343a",
+                "url": "https://api.github.com/repos/JuanchoSL/HttpHeaders/zipball/c12f1016c78995f839495a36ae463a077bc86cad",
+                "reference": "c12f1016c78995f839495a36ae463a077bc86cad",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^7.1 || ^8.0"
+                "php": "^8.0"
             },
             "require-dev": {
                 "phpstan/phpstan": "1.10.*",
                 "phpunit/phpunit": "9.6.*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "JuanchoSL\\HttpHeaders\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Juan Sánchez Lecegui",
-                    "email": "JuanchoSL@hotmail.com",
-                    "homepage": "https://github.com/JuanchoSL/"
-                }
-            ],
-            "description": "Little methods collection in order to create http headers",
-            "homepage": "https://github.com/JuanchoSL/HttpHeaders",
-            "keywords": [
-                "content types",
-                "file extensions",
-                "headers",
-                "http",
-                "mime types"
-            ],
-            "support": {
-                "source": "https://github.com/JuanchoSL/HttpHeaders/tree/1.0.1"
-            },
-            "time": "2025-06-06T23:49:10+00:00"
-        },
-        {
-            "name": "juanchosl/logger",
-            "version": "1.1.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JuanchoSL/Logger.git",
-                "reference": "0c1ef10dfb9d617fab09534e8e4997d247fb262e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/Logger/zipball/0c1ef10dfb9d617fab09534e8e4997d247fb262e",
-                "reference": "0c1ef10dfb9d617fab09534e8e4997d247fb262e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-fileinfo": "*",
-                "ext-mbstring": "*",
-                "php": "^8.1",
-                "psr/log": "3.0.*"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "9.6.*"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "JuanchoSL\\Logger\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Juan Sánchez Lecegui",
-                    "email": "JuanchoSL@hotmail.com",
-                    "homepage": "https://github.com/JuanchoSL/"
-                }
-            ],
-            "description": "Little logger using the PSR interfaces",
-            "homepage": "https://github.com/JuanchoSL/Logger",
-            "keywords": [
-                "debug",
-                "log"
-            ],
-            "support": {
-                "source": "https://github.com/JuanchoSL/Logger/tree/1.1.2"
-            },
-            "time": "2025-07-29T13:21:09+00:00"
-        },
-        {
-            "name": "juanchosl/requestlistener",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JuanchoSL/RequestListener.git",
-                "reference": "b5f87f8c67c0b0400a8437f04df51702af6bed28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/RequestListener/zipball/b5f87f8c67c0b0400a8437f04df51702af6bed28",
-                "reference": "b5f87f8c67c0b0400a8437f04df51702af6bed28",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "fig/http-message-util": "1.1.*",
-                "juanchosl/datatransfer": "1.0.*",
-                "juanchosl/exceptions": "1.0.*",
-                "juanchosl/httpdata": "1.0.*",
-                "juanchosl/logger": "1.1.*",
-                "php": "^8.1",
-                "psr/container": "2.0.*",
-                "psr/http-server-handler": "1.0.*",
-                "psr/http-server-middleware": "1.0.*",
-                "psr/log": "3.0.*"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "1.10.*",
-                "phpunit/phpunit": "9.6.*"
-            },
-            "suggest": {
-                "juanchosl/logger": "^1.1"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "JuanchoSL\\RequestListener\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -539,46 +280,48 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Little methods collection in order to create an APP listener, that can be able to receive, process and response to http request and cli commands",
-            "homepage": "https://github.com/JuanchoSL/RequestListener",
+            "description": "Little methods and constants collection in order to create http headers and reuse standard codes and messages",
+            "homepage": "https://github.com/JuanchoSL/HttpHeaders",
             "keywords": [
-                "console",
+                "content types",
+                "file extensions",
+                "ftp",
+                "headers",
                 "http",
-                "message",
-                "request",
-                "response",
-                "stream",
-                "terminal",
-                "uri",
-                "use cases"
+                "mime types"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/RequestListener/tree/master"
+                "source": "https://github.com/JuanchoSL/HttpHeaders/tree/1.0"
             },
-            "time": "2025-12-24T16:05:59+00:00"
+            "time": "2026-08-04T04:25:50+00:00"
         },
         {
             "name": "juanchosl/validators",
-            "version": "1.0.8",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/Validators.git",
-                "reference": "c20376666a18ccf36bed42b8b8e33f5d49681aa9"
+                "reference": "1783176376cbf6b8d2a7c339bcc53abe011c5c3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/Validators/zipball/c20376666a18ccf36bed42b8b8e33f5d49681aa9",
-                "reference": "c20376666a18ccf36bed42b8b8e33f5d49681aa9",
+                "url": "https://api.github.com/repos/JuanchoSL/Validators/zipball/1783176376cbf6b8d2a7c339bcc53abe011c5c3c",
+                "reference": "1783176376cbf6b8d2a7c339bcc53abe011c5c3c",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^8.1"
+                "juanchosl/datamanipulation": "1.0.*",
+                "juanchosl/exceptions": "1.0.*",
+                "php": "^8.0",
+                "psr/log": "3.0.*"
             },
             "require-dev": {
+                "juanchosl/logger": "1.1.*",
                 "phpstan/phpstan": "1.12.*",
-                "phpunit/phpunit": "10.5.*"
+                "phpunit/phpunit": "9.6.* | 10.5.*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -610,63 +353,9 @@
                 "validator"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/Validators/tree/1.0.8"
+                "source": "https://github.com/JuanchoSL/Validators/tree/1.0"
             },
-            "time": "2025-12-26T23:50:29+00:00"
-        },
-        {
-            "name": "psr/container",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/container.git",
-                "reference": "707984727bd5b2b670e59559d3ed2500240cf875"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/707984727bd5b2b670e59559d3ed2500240cf875",
-                "reference": "707984727bd5b2b670e59559d3ed2500240cf875",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Container\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
-                }
-            ],
-            "description": "Common Container Interface (PHP FIG PSR-11)",
-            "homepage": "https://github.com/php-fig/container",
-            "keywords": [
-                "PSR-11",
-                "container",
-                "container-interface",
-                "container-interop",
-                "psr"
-            ],
-            "support": {
-                "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container"
-            },
-            "time": "2023-09-22T11:11:30+00:00"
+            "time": "2026-09-04T04:42:07+00:00"
         },
         {
             "name": "psr/http-client",
@@ -831,121 +520,6 @@
             "time": "2023-04-04T09:54:51+00:00"
         },
         {
-            "name": "psr/http-server-handler",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-server-handler.git",
-                "reference": "13403d43196ab3382d0a4ca28be32984282641f9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/13403d43196ab3382d0a4ca28be32984282641f9",
-                "reference": "13403d43196ab3382d0a4ca28be32984282641f9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0",
-                "psr/http-message": "^1.0 || ^2.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Http\\Server\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for HTTP server-side request handler",
-            "keywords": [
-                "handler",
-                "http",
-                "http-interop",
-                "psr",
-                "psr-15",
-                "psr-7",
-                "request",
-                "response",
-                "server"
-            ],
-            "support": {
-                "source": "https://github.com/php-fig/http-server-handler"
-            },
-            "time": "2023-11-16T18:17:39+00:00"
-        },
-        {
-            "name": "psr/http-server-middleware",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-server-middleware.git",
-                "reference": "459eeb7efeae55b4102a951c4ecc93a11ce58d0f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/459eeb7efeae55b4102a951c4ecc93a11ce58d0f",
-                "reference": "459eeb7efeae55b4102a951c4ecc93a11ce58d0f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0",
-                "psr/http-message": "^1.0 || ^2.0",
-                "psr/http-server-handler": "^1.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Http\\Server\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for HTTP server-side middleware",
-            "keywords": [
-                "http",
-                "http-interop",
-                "middleware",
-                "psr",
-                "psr-15",
-                "psr-7",
-                "request",
-                "response"
-            ],
-            "support": {
-                "issues": "https://github.com/php-fig/http-server-middleware/issues",
-                "source": "https://github.com/php-fig/http-server-middleware"
-            },
-            "time": "2023-09-22T11:17:21+00:00"
-        },
-        {
             "name": "psr/log",
             "version": "3.0.2",
             "source": {
@@ -999,20 +573,20 @@
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
-            "version": "2.0.x-dev",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "a64410ccca65b13a10bc364c3f59d9331beeaae6"
+                "reference": "c795a176780bcada3d008d07eef0c2b1b298665c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/a64410ccca65b13a10bc364c3f59d9331beeaae6",
-                "reference": "a64410ccca65b13a10bc364c3f59d9331beeaae6",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/c795a176780bcada3d008d07eef0c2b1b298665c",
+                "reference": "c795a176780bcada3d008d07eef0c2b1b298665c",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "php": "^8.4"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^14",
@@ -1023,11 +597,10 @@
                 "phpstan/phpstan-phpunit": "^2.0",
                 "phpunit/phpunit": "^10.5.58"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
+                    "Doctrine\\Instantiator\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1049,7 +622,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/instantiator/issues",
-                "source": "https://github.com/doctrine/instantiator/tree/2.0.x"
+                "source": "https://github.com/doctrine/instantiator/tree/2.2.x"
             },
             "funding": [
                 {
@@ -1065,7 +638,312 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-02T21:31:50+00:00"
+            "time": "2026-03-20T19:06:08+00:00"
+        },
+        {
+            "name": "juanchosl/curlclient",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JuanchoSL/CurlClient.git",
+                "reference": "77864563ad3b52f4f12264bed7fa9910895bac5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JuanchoSL/CurlClient/zipball/77864563ad3b52f4f12264bed7fa9910895bac5f",
+                "reference": "77864563ad3b52f4f12264bed7fa9910895bac5f",
+                "shasum": ""
+            },
+            "require": {
+                "composer-runtime-api": "^2.2",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "fig/http-message-util": "1.1.*",
+                "juanchosl/datamanipulation": "1.0.*",
+                "juanchosl/httpdata": "1.0.*",
+                "juanchosl/httpheaders": "1.0.*",
+                "juanchosl/requestlistener": "1.0.*",
+                "juanchosl/validators": "1.0.*",
+                "php": "^8.0",
+                "psr/http-client": "1.0.*",
+                "psr/http-factory": "1.1.*",
+                "psr/http-message": "^2.0",
+                "psr/log": "^3.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "v7.0.0-alpha.6",
+                "juanchosl/logger": "1.1.*",
+                "phpstan/phpstan": "1.9.1",
+                "phpunit/phpunit": "10.5.*"
+            },
+            "bin": [
+                "bin/curlclient"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JuanchoSL\\CurlClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Sánchez Lecegui",
+                    "email": "Juan.Sanchez@tecnicosweb.com",
+                    "homepage": "https://www.linkedin.com/in/juansanchezlecegui/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A small, lightweight utility to perform curl calls using GET, POST, PUT, PACTH, DELETE, HEAD, TRACE, OPTIONS methods...",
+            "homepage": "https://github.com/JuanchoSL/CurlClient",
+            "keywords": [
+                "MKCOL",
+                "PROPFIND",
+                "WebDAV",
+                "api",
+                "client",
+                "connect",
+                "curl",
+                "delete",
+                "ftp",
+                "ftps",
+                "get",
+                "head",
+                "http",
+                "move",
+                "options",
+                "patch",
+                "post",
+                "psr18",
+                "psr7",
+                "put",
+                "request",
+                "sftp",
+                "ssh",
+                "ssh2",
+                "trace"
+            ],
+            "support": {
+                "source": "https://github.com/JuanchoSL/CurlClient/tree/develop"
+            },
+            "time": "2026-08-29T20:25:17+00:00"
+        },
+        {
+            "name": "juanchosl/datatransfer",
+            "version": "1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JuanchoSL/DataTransfer.git",
+                "reference": "556f472381e2f302a095c20435c48779851097e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JuanchoSL/DataTransfer/zipball/556f472381e2f302a095c20435c48779851097e6",
+                "reference": "556f472381e2f302a095c20435c48779851097e6",
+                "shasum": ""
+            },
+            "require": {
+                "composer-runtime-api": "^2.2",
+                "ext-fileinfo": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-xml": "*",
+                "ext-zip": "*",
+                "juanchosl/exceptions": "1.0.*",
+                "juanchosl/httpheaders": "1.0.*",
+                "juanchosl/validators": "1.0.*",
+                "php": "^8.0",
+                "psr/http-server-handler": "1.0.*"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "1.12.*",
+                "phpunit/phpunit": "9.6.*"
+            },
+            "suggest": {
+                "ext-xlswriter": "*",
+                "ext-xml": "*",
+                "ext-yaml": "*",
+                "ext-zip": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JuanchoSL\\DataTransfer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Sánchez Lecegui",
+                    "email": "Juan.Sanchez@tecnicosweb.com",
+                    "homepage": "https://www.linkedin.com/in/juansanchezlecegui/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A small, lightweight utility to read values and properties from distinct sources using the same methodology",
+            "homepage": "https://github.com/JuanchoSL/DataTransfer",
+            "keywords": [
+                "Data Interchange Format",
+                "array",
+                "csv",
+                "data converter",
+                "data sheets",
+                "data transfer objects",
+                "dif",
+                "dto",
+                "entity",
+                "file contents",
+                "ini",
+                "json",
+                "object",
+                "ods",
+                "simplexmlelement",
+                "tab separated values",
+                "tsv",
+                "values",
+                "xlsx",
+                "xml",
+                "yaml"
+            ],
+            "support": {
+                "source": "https://github.com/JuanchoSL/DataTransfer/tree/1.0"
+            },
+            "time": "2026-08-30T19:24:19+00:00"
+        },
+        {
+            "name": "juanchosl/logger",
+            "version": "1.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JuanchoSL/Logger.git",
+                "reference": "57776650543402e130a901962713dc80c663436b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JuanchoSL/Logger/zipball/57776650543402e130a901962713dc80c663436b",
+                "reference": "57776650543402e130a901962713dc80c663436b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^8.0",
+                "psr/http-message": "^2.0",
+                "psr/log": "3.0.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "9.6.* || 10.5.*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JuanchoSL\\Logger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Sánchez Lecegui",
+                    "email": "Juan.Sanchez@tecnicosweb.com",
+                    "homepage": "https://www.linkedin.com/in/juansanchezlecegui/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Little logger using the PSR interfaces",
+            "homepage": "https://github.com/JuanchoSL/Logger",
+            "keywords": [
+                "debug",
+                "log"
+            ],
+            "support": {
+                "source": "https://github.com/JuanchoSL/Logger/tree/1.1"
+            },
+            "time": "2026-08-13T11:15:28+00:00"
+        },
+        {
+            "name": "juanchosl/requestlistener",
+            "version": "1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JuanchoSL/RequestListener.git",
+                "reference": "0e47026c666cb1607ae33f06c91dd201f1af83b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JuanchoSL/RequestListener/zipball/0e47026c666cb1607ae33f06c91dd201f1af83b1",
+                "reference": "0e47026c666cb1607ae33f06c91dd201f1af83b1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "fig/http-message-util": "1.1.*",
+                "juanchosl/datamanipulation": "1.0.*",
+                "juanchosl/datatransfer": "1.0.*",
+                "juanchosl/exceptions": "1.0.*",
+                "juanchosl/httpdata": "1.0.*",
+                "juanchosl/logger": "1.1.*",
+                "php": "^8.1",
+                "psr/container": "2.0.*",
+                "psr/http-server-handler": "1.0.*",
+                "psr/http-server-middleware": "1.0.*",
+                "psr/log": "3.0.*"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "1.10.*",
+                "phpunit/phpunit": "9.6.*"
+            },
+            "suggest": {
+                "juanchosl/logger": "^1.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JuanchoSL\\RequestListener\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Sánchez Lecegui",
+                    "email": "Juan.Sanchez@tecnicosweb.com",
+                    "homepage": "https://www.linkedin.com/in/juansanchezlecegui/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Little methods collection in order to create an APP listener, that can be able to receive, process and response to http request and cli commands",
+            "homepage": "https://github.com/JuanchoSL/RequestListener",
+            "keywords": [
+                "console",
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "terminal",
+                "uri",
+                "use cases"
+            ],
+            "support": {
+                "source": "https://github.com/JuanchoSL/RequestListener/tree/1.0"
+            },
+            "time": "2026-08-02T18:18:07+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1073,16 +951,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "07d290f0c47959fd5eed98c95ee5602db07e0b6a"
+                "reference": "958a0803aae2ade58a9fa4ae31b7cade3bb9ed6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/07d290f0c47959fd5eed98c95ee5602db07e0b6a",
-                "reference": "07d290f0c47959fd5eed98c95ee5602db07e0b6a",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/958a0803aae2ade58a9fa4ae31b7cade3bb9ed6f",
+                "reference": "958a0803aae2ade58a9fa4ae31b7cade3bb9ed6f",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^8.0"
             },
             "conflict": {
                 "doctrine/collections": "<1.6.8",
@@ -1118,15 +996,15 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.4"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.x"
             },
             "funding": [
                 {
-                    "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
-                    "type": "tidelift"
+                    "url": "https://github.com/mnapoli",
+                    "type": "github"
                 }
             ],
-            "time": "2025-08-01T08:46:24+00:00"
+            "time": "2026-08-12T09:19:28+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1134,16 +1012,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8c360e27327c8bd29e1c57721574709d0d706118"
+                "reference": "1aa08bf07171e5237490f05e9db648f50abfce0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8c360e27327c8bd29e1c57721574709d0d706118",
-                "reference": "8c360e27327c8bd29e1c57721574709d0d706118",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1aa08bf07171e5237490f05e9db648f50abfce0a",
+                "reference": "1aa08bf07171e5237490f05e9db648f50abfce0a",
                 "shasum": ""
             },
             "require": {
-                "ext-ctype": "*",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
                 "php": ">=7.4"
@@ -1185,7 +1062,7 @@
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
                 "source": "https://github.com/nikic/PHP-Parser/tree/master"
             },
-            "time": "2025-12-06T20:24:35+00:00"
+            "time": "2026-08-23T19:01:01+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -1311,8 +1188,8 @@
             "version": "1.12.x-dev",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2770dcdf5078d0b0d53f94317e06affe88419aa8",
-                "reference": "2770dcdf5078d0b0d53f94317e06affe88419aa8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/4dd89ca7aa30fdc6760be21550d583bcc32e8476",
+                "reference": "4dd89ca7aa30fdc6760be21550d583bcc32e8476",
                 "shasum": ""
             },
             "require": {
@@ -1357,20 +1234,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-30T10:16:31+00:00"
+            "time": "2026-07-28T10:04:39+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.x-dev",
+            "version": "9.2.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "653bca7ea05439961818f429a2a49ec8a8c7d2fb"
+                "reference": "85402a822d1ecf1db1096959413d35e1c37cf1a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/653bca7ea05439961818f429a2a49ec8a8c7d2fb",
-                "reference": "653bca7ea05439961818f429a2a49ec8a8c7d2fb",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/85402a822d1ecf1db1096959413d35e1c37cf1a5",
+                "reference": "85402a822d1ecf1db1096959413d35e1c37cf1a5",
                 "shasum": ""
             },
             "require": {
@@ -1427,40 +1304,28 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.32"
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpunit/php-code-coverage",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2025-11-26T14:28:02+00:00"
+            "time": "2024-08-22T04:23:01+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "3.0.x-dev",
+            "version": "3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "38b24367e1b340aa78b96d7cab042942d917bb84"
+                "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/38b24367e1b340aa78b96d7cab042942d917bb84",
-                "reference": "38b24367e1b340aa78b96d7cab042942d917bb84",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
+                "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
                 "shasum": ""
             },
             "require": {
@@ -1499,7 +1364,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/3.0"
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/3.0.6"
             },
             "funding": [
                 {
@@ -1507,7 +1372,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-11T16:23:04+00:00"
+            "time": "2021-12-02T12:48:52+00:00"
         },
         {
             "name": "phpunit/php-invoker",
@@ -1696,21 +1561,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "6e97c1645f3fdb7707df66162dc474da0ed7cc48"
+                "reference": "2376589267602585540ab707b6924228c6cf5b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6e97c1645f3fdb7707df66162dc474da0ed7cc48",
-                "reference": "6e97c1645f3fdb7707df66162dc474da0ed7cc48",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2376589267602585540ab707b6924228c6cf5b5c",
+                "reference": "2376589267602585540ab707b6924228c6cf5b5c",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.5.0 || ^2",
                 "ext-dom": "*",
+                "ext-filter": "*",
                 "ext-json": "*",
                 "ext-libxml": "*",
                 "ext-mbstring": "*",
-                "ext-xml": "*",
                 "ext-xmlwriter": "*",
                 "myclabs/deep-copy": "^1.13.4",
                 "phar-io/manifest": "^2.0.4",
@@ -1723,10 +1588,10 @@
                 "phpunit/php-timer": "^5.0.3",
                 "sebastian/cli-parser": "^1.0.2",
                 "sebastian/code-unit": "^1.0.8",
-                "sebastian/comparator": "^4.0.9",
+                "sebastian/comparator": "^4.0.10",
                 "sebastian/diff": "^4.0.6",
                 "sebastian/environment": "^5.1.5",
-                "sebastian/exporter": "^4.0.8",
+                "sebastian/exporter": "^4.0.9",
                 "sebastian/global-state": "^5.0.8",
                 "sebastian/object-enumerator": "^4.0.4",
                 "sebastian/resource-operations": "^3.0.4",
@@ -1779,31 +1644,184 @@
             },
             "funding": [
                 {
-                    "url": "https://phpunit.de/sponsors.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpunit/phpunit",
-                    "type": "tidelift"
+                    "url": "https://phpunit.de/sponsoring.html",
+                    "type": "other"
                 }
             ],
-            "time": "2025-12-28T07:19:27+00:00"
+            "time": "2026-09-03T07:16:46+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "707984727bd5b2b670e59559d3ed2500240cf875"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/707984727bd5b2b670e59559d3ed2500240cf875",
+                "reference": "707984727bd5b2b670e59559d3ed2500240cf875",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container"
+            },
+            "time": "2023-09-22T11:11:30+00:00"
+        },
+        {
+            "name": "psr/http-server-handler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-handler.git",
+                "reference": "13403d43196ab3382d0a4ca28be32984282641f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/13403d43196ab3382d0a4ca28be32984282641f9",
+                "reference": "13403d43196ab3382d0a4ca28be32984282641f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side request handler",
+            "keywords": [
+                "handler",
+                "http",
+                "http-interop",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response",
+                "server"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-server-handler"
+            },
+            "time": "2023-11-16T18:17:39+00:00"
+        },
+        {
+            "name": "psr/http-server-middleware",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-middleware.git",
+                "reference": "459eeb7efeae55b4102a951c4ecc93a11ce58d0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/459eeb7efeae55b4102a951c4ecc93a11ce58d0f",
+                "reference": "459eeb7efeae55b4102a951c4ecc93a11ce58d0f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0 || ^2.0",
+                "psr/http-server-handler": "^1.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side middleware",
+            "keywords": [
+                "http",
+                "http-interop",
+                "middleware",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-middleware/issues",
+                "source": "https://github.com/php-fig/http-server-middleware"
+            },
+            "time": "2023-09-22T11:17:21+00:00"
         },
         {
             "name": "sebastian/cli-parser",
-            "version": "1.0.x-dev",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/cli-parser.git",
@@ -1970,16 +1988,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "4.0.x-dev",
+            "version": "4.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "67a2df3a62639eab2cc5906065e9805d4fd5dfc5"
+                "reference": "e4df00b9b3571187db2831ae9aada2c6efbd715d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/67a2df3a62639eab2cc5906065e9805d4fd5dfc5",
-                "reference": "67a2df3a62639eab2cc5906065e9805d4fd5dfc5",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/e4df00b9b3571187db2831ae9aada2c6efbd715d",
+                "reference": "e4df00b9b3571187db2831ae9aada2c6efbd715d",
                 "shasum": ""
             },
             "require": {
@@ -2032,7 +2050,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
-                "source": "https://github.com/sebastianbergmann/comparator/tree/4.0.9"
+                "source": "https://github.com/sebastianbergmann/comparator/tree/4.0.10"
             },
             "funding": [
                 {
@@ -2052,11 +2070,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-10T06:51:50+00:00"
+            "time": "2026-01-24T09:22:56+00:00"
         },
         {
             "name": "sebastian/complexity",
-            "version": "2.0.x-dev",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/complexity.git",
@@ -2113,7 +2131,7 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "4.0.x-dev",
+            "version": "4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
@@ -2179,7 +2197,7 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "5.1.x-dev",
+            "version": "5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
@@ -2230,7 +2248,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
-                "source": "https://github.com/sebastianbergmann/environment/tree/5.1"
+                "source": "https://github.com/sebastianbergmann/environment/tree/5.1.5"
             },
             "funding": [
                 {
@@ -2242,16 +2260,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "4.0.x-dev",
+            "version": "4.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "14c6ba52f95a36c3d27c835d65efc7123c446e8c"
+                "reference": "4352c1a3df741a7ba9e61af6fed51d1fee41cbf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/14c6ba52f95a36c3d27c835d65efc7123c446e8c",
-                "reference": "14c6ba52f95a36c3d27c835d65efc7123c446e8c",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/4352c1a3df741a7ba9e61af6fed51d1fee41cbf7",
+                "reference": "4352c1a3df741a7ba9e61af6fed51d1fee41cbf7",
                 "shasum": ""
             },
             "require": {
@@ -2307,7 +2325,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
-                "source": "https://github.com/sebastianbergmann/exporter/tree/4.0.8"
+                "source": "https://github.com/sebastianbergmann/exporter/tree/4.0.9"
             },
             "funding": [
                 {
@@ -2327,11 +2345,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-24T06:03:27+00:00"
+            "time": "2026-08-11T04:55:59+00:00"
         },
         {
             "name": "sebastian/global-state",
-            "version": "5.0.x-dev",
+            "version": "5.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
@@ -2407,7 +2425,7 @@
         },
         {
             "name": "sebastian/lines-of-code",
-            "version": "1.0.x-dev",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/lines-of-code.git",
@@ -2576,16 +2594,16 @@
         },
         {
             "name": "sebastian/recursion-context",
-            "version": "4.0.x-dev",
+            "version": "4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "539c6691e0623af6dc6f9c20384c120f963465a0"
+                "reference": "c85be6922b7fd365942b986b9a50397d65407611"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/539c6691e0623af6dc6f9c20384c120f963465a0",
-                "reference": "539c6691e0623af6dc6f9c20384c120f963465a0",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/c85be6922b7fd365942b986b9a50397d65407611",
+                "reference": "c85be6922b7fd365942b986b9a50397d65407611",
                 "shasum": ""
             },
             "require": {
@@ -2627,7 +2645,7 @@
             "homepage": "https://github.com/sebastianbergmann/recursion-context",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
-                "source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.6"
+                "source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.7"
             },
             "funding": [
                 {
@@ -2647,7 +2665,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-10T06:57:39+00:00"
+            "time": "2026-08-11T05:25:24+00:00"
         },
         {
             "name": "sebastian/resource-operations",
@@ -2706,7 +2724,7 @@
         },
         {
             "name": "sebastian/type",
-            "version": "3.2.x-dev",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
@@ -2750,7 +2768,7 @@
             "homepage": "https://github.com/sebastianbergmann/type",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
-                "source": "https://github.com/sebastianbergmann/type/tree/3.2"
+                "source": "https://github.com/sebastianbergmann/type/tree/3.2.1"
             },
             "funding": [
                 {
@@ -2762,7 +2780,7 @@
         },
         {
             "name": "sebastian/version",
-            "version": "3.0.x-dev",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/version.git",
@@ -2867,7 +2885,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "juanchosl/datamanipulation": 20
+        "juanchosl/curlclient": 20,
+        "juanchosl/datamanipulation": 20,
+        "juanchosl/validators": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

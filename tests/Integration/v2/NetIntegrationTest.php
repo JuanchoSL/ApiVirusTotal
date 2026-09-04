@@ -1,8 +1,9 @@
 <?php
 
-namespace JuanchoSL\ApiVirusTotal\Tests\Integration\v2\Factory;
+namespace JuanchoSL\ApiVirusTotal\Tests\Integration\v2;
 
 use JuanchoSL\ApiVirusTotal\Infrastructure\Factories\VirusTotalV2Factory;
+use JuanchoSL\CurlClient\Wrappers\PsrCurlClient;
 use PHPUnit\Framework\TestCase;
 
 class NetIntegrationTest extends TestCase
@@ -11,7 +12,7 @@ class NetIntegrationTest extends TestCase
     protected $api = null;
     public function setUp(): void
     {
-        $this->api = new VirusTotalV2Factory(getenv('VIRUS_TOTAL_APIKEY'));
+        $this->api = new VirusTotalV2Factory(getenv('VIRUS_TOTAL_APIKEY'), new PsrCurlClient());
     }
 
     public function testUrlScan()
