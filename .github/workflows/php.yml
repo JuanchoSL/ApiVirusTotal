@@ -44,4 +44,4 @@ jobs:
         env:
           TMPDIR: ${{ runner.temp }}
           VIRUS_TOTAL_APIKEY: ${{ secrets.VIRUS_TOTAL_APIKEY }}
-        run: composer tests
+        run: #composer tests

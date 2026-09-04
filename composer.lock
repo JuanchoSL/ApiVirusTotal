@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab403e27b8446f2806f54544e9b795b4",
+    "content-hash": "f0fa3368dcd3de559b3a5f4e48fe1430",
     "packages": [
         {
             "name": "fig/http-message-util",
-            "version": "dev-master",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message-util.git",
@@ -26,7 +26,6 @@
             "suggest": {
                 "psr/http-message": "The package containing the PSR-7 interfaces"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -65,16 +64,16 @@
         },
         {
             "name": "juanchosl/datamanipulation",
-            "version": "1.0.x-dev",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/DataManipulation.git",
-                "reference": "05fbc66447af635f96dfc4bc6ae72a209f87f1f0"
+                "reference": "1d9ab593bbb4bb616e1029f79696273cbc9ab53c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/DataManipulation/zipball/05fbc66447af635f96dfc4bc6ae72a209f87f1f0",
-                "reference": "05fbc66447af635f96dfc4bc6ae72a209f87f1f0",
+                "url": "https://api.github.com/repos/JuanchoSL/DataManipulation/zipball/1d9ab593bbb4bb616e1029f79696273cbc9ab53c",
+                "reference": "1d9ab593bbb4bb616e1029f79696273cbc9ab53c",
                 "shasum": ""
             },
             "require": {
@@ -88,7 +87,6 @@
                 "phpstan/phpstan": "1.12.*",
                 "phpunit/phpunit": "9.6.*|10.5.*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -117,13 +115,13 @@
                 "variables"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/DataManipulation/tree/1.0"
+                "source": "https://github.com/JuanchoSL/DataManipulation/tree/1.0.3"
             },
-            "time": "2026-08-13T22:35:21+00:00"
+            "time": "2026-08-12T09:21:02+00:00"
         },
         {
             "name": "juanchosl/exceptions",
-            "version": "1.0.x-dev",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/Exceptions.git",
@@ -142,7 +140,6 @@
             "require-dev": {
                 "phpunit/phpunit": "9.6.*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -173,16 +170,16 @@
         },
         {
             "name": "juanchosl/httpdata",
-            "version": "1.0.x-dev",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/HttpData.git",
-                "reference": "664a650788e003e57783f2859068c7dee71eee16"
+                "reference": "e83f9377edad8e00df3d1759f35813c495b87a99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/HttpData/zipball/664a650788e003e57783f2859068c7dee71eee16",
-                "reference": "664a650788e003e57783f2859068c7dee71eee16",
+                "url": "https://api.github.com/repos/JuanchoSL/HttpData/zipball/e83f9377edad8e00df3d1759f35813c495b87a99",
+                "reference": "e83f9377edad8e00df3d1759f35813c495b87a99",
                 "shasum": ""
             },
             "require": {
@@ -202,7 +199,6 @@
                 "phpstan/phpstan": "1.12.*",
                 "phpunit/phpunit": "9.6.* | 10.5.*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -235,13 +231,13 @@
                 "uri"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/HttpData/tree/1.0"
+                "source": "https://github.com/JuanchoSL/HttpData/tree/1.0.8"
             },
-            "time": "2026-09-02T21:30:25+00:00"
+            "time": "2026-08-13T08:30:33+00:00"
         },
         {
             "name": "juanchosl/httpheaders",
-            "version": "1.0.x-dev",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/HttpHeaders.git",
@@ -261,7 +257,6 @@
                 "phpstan/phpstan": "1.10.*",
                 "phpunit/phpunit": "9.6.*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -291,22 +286,22 @@
                 "mime types"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/HttpHeaders/tree/1.0"
+                "source": "https://github.com/JuanchoSL/HttpHeaders/tree/1.0.2"
             },
             "time": "2026-08-04T04:25:50+00:00"
         },
         {
             "name": "juanchosl/validators",
-            "version": "1.0.x-dev",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/Validators.git",
-                "reference": "1783176376cbf6b8d2a7c339bcc53abe011c5c3c"
+                "reference": "c5f14af1c675c3aa19b0e325b1bc1269e1259b41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/Validators/zipball/1783176376cbf6b8d2a7c339bcc53abe011c5c3c",
-                "reference": "1783176376cbf6b8d2a7c339bcc53abe011c5c3c",
+                "url": "https://api.github.com/repos/JuanchoSL/Validators/zipball/c5f14af1c675c3aa19b0e325b1bc1269e1259b41",
+                "reference": "c5f14af1c675c3aa19b0e325b1bc1269e1259b41",
                 "shasum": ""
             },
             "require": {
@@ -321,7 +316,6 @@
                 "phpstan/phpstan": "1.12.*",
                 "phpunit/phpunit": "9.6.* | 10.5.*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -353,13 +347,13 @@
                 "validator"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/Validators/tree/1.0"
+                "source": "https://github.com/JuanchoSL/Validators/tree/1.0.11"
             },
-            "time": "2026-09-04T04:42:07+00:00"
+            "time": "2026-08-22T10:14:59+00:00"
         },
         {
             "name": "psr/http-client",
-            "version": "dev-master",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-client.git",
@@ -375,7 +369,6 @@
                 "php": "^7.0 || ^8.0",
                 "psr/http-message": "^1.0 || ^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -467,7 +460,7 @@
         },
         {
             "name": "psr/http-message",
-            "version": "dev-master",
+            "version": "2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -482,7 +475,6 @@
             "require": {
                 "php": "^7.2 || ^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -573,16 +565,16 @@
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
-            "version": "2.2.x-dev",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "c795a176780bcada3d008d07eef0c2b1b298665c"
+                "reference": "23da848e1a2308728fe5fdddabf4be17ff9720c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/c795a176780bcada3d008d07eef0c2b1b298665c",
-                "reference": "c795a176780bcada3d008d07eef0c2b1b298665c",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/23da848e1a2308728fe5fdddabf4be17ff9720c7",
+                "reference": "23da848e1a2308728fe5fdddabf4be17ff9720c7",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +592,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Instantiator\\": "src/"
+                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -622,7 +614,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/instantiator/issues",
-                "source": "https://github.com/doctrine/instantiator/tree/2.2.x"
+                "source": "https://github.com/doctrine/instantiator/tree/2.1.0"
             },
             "funding": [
                 {
@@ -638,20 +630,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-03-20T19:06:08+00:00"
+            "time": "2026-01-05T06:47:08+00:00"
         },
         {
             "name": "juanchosl/curlclient",
-            "version": "dev-develop",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/CurlClient.git",
-                "reference": "77864563ad3b52f4f12264bed7fa9910895bac5f"
+                "reference": "3437dcd27a72b67919a972ccaae2346faf2e850a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/CurlClient/zipball/77864563ad3b52f4f12264bed7fa9910895bac5f",
-                "reference": "77864563ad3b52f4f12264bed7fa9910895bac5f",
+                "url": "https://api.github.com/repos/JuanchoSL/CurlClient/zipball/3437dcd27a72b67919a972ccaae2346faf2e850a",
+                "reference": "3437dcd27a72b67919a972ccaae2346faf2e850a",
                 "shasum": ""
             },
             "require": {
@@ -677,6 +669,7 @@
                 "phpstan/phpstan": "1.9.1",
                 "phpunit/phpunit": "10.5.*"
             },
+            "default-branch": true,
             "bin": [
                 "bin/curlclient"
             ],
@@ -728,13 +721,13 @@
                 "trace"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/CurlClient/tree/develop"
+                "source": "https://github.com/JuanchoSL/CurlClient/tree/1.0"
             },
-            "time": "2026-08-29T20:25:17+00:00"
+            "time": "2026-08-29T11:51:22+00:00"
         },
         {
             "name": "juanchosl/datatransfer",
-            "version": "1.0.x-dev",
+            "version": "1.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/DataTransfer.git",
@@ -769,7 +762,6 @@
                 "ext-yaml": "*",
                 "ext-zip": "*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -814,13 +806,13 @@
                 "yaml"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/DataTransfer/tree/1.0"
+                "source": "https://github.com/JuanchoSL/DataTransfer/tree/1.0.17"
             },
             "time": "2026-08-30T19:24:19+00:00"
         },
         {
             "name": "juanchosl/logger",
-            "version": "1.1.x-dev",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/Logger.git",
@@ -843,7 +835,6 @@
             "require-dev": {
                 "phpunit/phpunit": "9.6.* || 10.5.*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -869,31 +860,31 @@
                 "log"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/Logger/tree/1.1"
+                "source": "https://github.com/JuanchoSL/Logger/tree/1.1.4"
             },
             "time": "2026-08-13T11:15:28+00:00"
         },
         {
             "name": "juanchosl/requestlistener",
-            "version": "1.0.x-dev",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuanchoSL/RequestListener.git",
-                "reference": "0e47026c666cb1607ae33f06c91dd201f1af83b1"
+                "reference": "7d9c91c9062ef65107df795657960346f2ed48f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuanchoSL/RequestListener/zipball/0e47026c666cb1607ae33f06c91dd201f1af83b1",
-                "reference": "0e47026c666cb1607ae33f06c91dd201f1af83b1",
+                "url": "https://api.github.com/repos/JuanchoSL/RequestListener/zipball/7d9c91c9062ef65107df795657960346f2ed48f3",
+                "reference": "7d9c91c9062ef65107df795657960346f2ed48f3",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "fig/http-message-util": "1.1.*",
-                "juanchosl/datamanipulation": "1.0.*",
-                "juanchosl/datatransfer": "1.0.*",
+                "juanchosl/datamanipulation": "^1.0",
+                "juanchosl/datatransfer": "^1.0",
                 "juanchosl/exceptions": "1.0.*",
-                "juanchosl/httpdata": "1.0.*",
+                "juanchosl/httpdata": "^1.0",
                 "juanchosl/logger": "1.1.*",
                 "php": "^8.1",
                 "psr/container": "2.0.*",
@@ -908,7 +899,6 @@
             "suggest": {
                 "juanchosl/logger": "^1.1"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -941,22 +931,22 @@
                 "use cases"
             ],
             "support": {
-                "source": "https://github.com/JuanchoSL/RequestListener/tree/1.0"
+                "source": "https://github.com/JuanchoSL/RequestListener/tree/1.0.0"
             },
-            "time": "2026-08-02T18:18:07+00:00"
+            "time": "2026-01-07T10:26:48+00:00"
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.x-dev",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "958a0803aae2ade58a9fa4ae31b7cade3bb9ed6f"
+                "reference": "8680aa248f8e07bc8fb43f56f0f5fc77a0c96aae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/958a0803aae2ade58a9fa4ae31b7cade3bb9ed6f",
-                "reference": "958a0803aae2ade58a9fa4ae31b7cade3bb9ed6f",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/8680aa248f8e07bc8fb43f56f0f5fc77a0c96aae",
+                "reference": "8680aa248f8e07bc8fb43f56f0f5fc77a0c96aae",
                 "shasum": ""
             },
             "require": {
@@ -972,7 +962,6 @@
                 "phpspec/prophecy": "^1.10",
                 "phpunit/phpunit": "^7.5.20 || ^8.5.23 || ^9.5.13"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -996,7 +985,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.x"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.14.0"
             },
             "funding": [
                 {
@@ -1004,20 +993,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-12T09:19:28+00:00"
+            "time": "2026-08-11T10:17:44+00:00"
         },
         {
             "name": "nikic/php-parser",
-            "version": "dev-master",
+            "version": "v5.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "1aa08bf07171e5237490f05e9db648f50abfce0a"
+                "reference": "044a6a392ff8ad0d61f14370a5fbbd0a0107152f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1aa08bf07171e5237490f05e9db648f50abfce0a",
-                "reference": "1aa08bf07171e5237490f05e9db648f50abfce0a",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/044a6a392ff8ad0d61f14370a5fbbd0a0107152f",
+                "reference": "044a6a392ff8ad0d61f14370a5fbbd0a0107152f",
                 "shasum": ""
             },
             "require": {
@@ -1029,7 +1018,6 @@
                 "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^9.0"
             },
-            "default-branch": true,
             "bin": [
                 "bin/php-parse"
             ],
@@ -1060,22 +1048,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/master"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.8.0"
             },
-            "time": "2026-08-23T19:01:01+00:00"
+            "time": "2026-07-04T14:30:18+00:00"
         },
         {
             "name": "phar-io/manifest",
-            "version": "dev-master",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phar-io/manifest.git",
-                "reference": "c581d4941e196459bf76c945a8ca922963a66708"
+                "reference": "54750ef60c58e43759730615a392c31c80e23176"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/manifest/zipball/c581d4941e196459bf76c945a8ca922963a66708",
-                "reference": "c581d4941e196459bf76c945a8ca922963a66708",
+                "url": "https://api.github.com/repos/phar-io/manifest/zipball/54750ef60c58e43759730615a392c31c80e23176",
+                "reference": "54750ef60c58e43759730615a392c31c80e23176",
                 "shasum": ""
             },
             "require": {
@@ -1086,7 +1074,6 @@
                 "phar-io/version": "^3.0.1",
                 "php": "^7.2 || ^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1122,7 +1109,7 @@
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
             "support": {
                 "issues": "https://github.com/phar-io/manifest/issues",
-                "source": "https://github.com/phar-io/manifest/tree/master"
+                "source": "https://github.com/phar-io/manifest/tree/2.0.4"
             },
             "funding": [
                 {
@@ -1130,7 +1117,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-27T15:23:09+00:00"
+            "time": "2024-03-03T12:33:53+00:00"
         },
         {
             "name": "phar-io/version",
@@ -1185,7 +1172,7 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.x-dev",
+            "version": "1.12.34",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpstan/phpstan/zipball/4dd89ca7aa30fdc6760be21550d583bcc32e8476",
@@ -1557,16 +1544,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.x-dev",
+            "version": "9.6.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2376589267602585540ab707b6924228c6cf5b5c"
+                "reference": "abab27ed286d3e1246fbbfe6b56bfd732d945ec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2376589267602585540ab707b6924228c6cf5b5c",
-                "reference": "2376589267602585540ab707b6924228c6cf5b5c",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/abab27ed286d3e1246fbbfe6b56bfd732d945ec9",
+                "reference": "abab27ed286d3e1246fbbfe6b56bfd732d945ec9",
                 "shasum": ""
             },
             "require": {
@@ -1640,7 +1627,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.36"
             },
             "funding": [
                 {
@@ -1648,26 +1635,25 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-09-03T07:16:46+00:00"
+            "time": "2026-08-11T06:25:15+00:00"
         },
         {
             "name": "psr/container",
-            "version": "dev-master",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "707984727bd5b2b670e59559d3ed2500240cf875"
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/707984727bd5b2b670e59559d3ed2500240cf875",
-                "reference": "707984727bd5b2b670e59559d3ed2500240cf875",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1700,29 +1686,28 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container"
+                "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
-            "time": "2023-09-22T11:11:30+00:00"
+            "time": "2021-11-05T16:47:00+00:00"
         },
         {
             "name": "psr/http-server-handler",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-server-handler.git",
-                "reference": "13403d43196ab3382d0a4ca28be32984282641f9"
+                "reference": "84c4fb66179be4caaf8e97bd239203245302e7d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/13403d43196ab3382d0a4ca28be32984282641f9",
-                "reference": "13403d43196ab3382d0a4ca28be32984282641f9",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/84c4fb66179be4caaf8e97bd239203245302e7d4",
+                "reference": "84c4fb66179be4caaf8e97bd239203245302e7d4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0",
                 "psr/http-message": "^1.0 || ^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1757,22 +1742,22 @@
                 "server"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-server-handler"
+                "source": "https://github.com/php-fig/http-server-handler/tree/1.0.2"
             },
-            "time": "2023-11-16T18:17:39+00:00"
+            "time": "2023-04-10T20:06:20+00:00"
         },
         {
             "name": "psr/http-server-middleware",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-server-middleware.git",
-                "reference": "459eeb7efeae55b4102a951c4ecc93a11ce58d0f"
+                "reference": "c1481f747daaa6a0782775cd6a8c26a1bf4a3829"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/459eeb7efeae55b4102a951c4ecc93a11ce58d0f",
-                "reference": "459eeb7efeae55b4102a951c4ecc93a11ce58d0f",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/c1481f747daaa6a0782775cd6a8c26a1bf4a3829",
+                "reference": "c1481f747daaa6a0782775cd6a8c26a1bf4a3829",
                 "shasum": ""
             },
             "require": {
@@ -1780,7 +1765,6 @@
                 "psr/http-message": "^1.0 || ^2.0",
                 "psr/http-server-handler": "^1.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1815,9 +1799,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/http-server-middleware/issues",
-                "source": "https://github.com/php-fig/http-server-middleware"
+                "source": "https://github.com/php-fig/http-server-middleware/tree/1.0.2"
             },
-            "time": "2023-09-22T11:17:21+00:00"
+            "time": "2023-04-11T06:14:47+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -2669,16 +2653,16 @@
         },
         {
             "name": "sebastian/resource-operations",
-            "version": "dev-main",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/resource-operations.git",
-                "reference": "ff553e7482dcee39fa4acc2b175d6ddeb0f7bc25"
+                "reference": "05d5692a7993ecccd56a03e40cd7e5b09b1d404e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/ff553e7482dcee39fa4acc2b175d6ddeb0f7bc25",
-                "reference": "ff553e7482dcee39fa4acc2b175d6ddeb0f7bc25",
+                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/05d5692a7993ecccd56a03e40cd7e5b09b1d404e",
+                "reference": "05d5692a7993ecccd56a03e40cd7e5b09b1d404e",
                 "shasum": ""
             },
             "require": {
@@ -2687,7 +2671,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2712,7 +2695,7 @@
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
             "support": {
-                "source": "https://github.com/sebastianbergmann/resource-operations/tree/main"
+                "source": "https://github.com/sebastianbergmann/resource-operations/tree/3.0.4"
             },
             "funding": [
                 {
@@ -2720,7 +2703,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-14T18:47:08+00:00"
+            "time": "2024-03-14T16:00:52+00:00"
         },
         {
             "name": "sebastian/type",
@@ -2883,11 +2866,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
-        "juanchosl/curlclient": 20,
-        "juanchosl/datamanipulation": 20,
-        "juanchosl/validators": 20
+        "juanchosl/curlclient": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

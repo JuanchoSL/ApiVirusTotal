@@ -4,7 +4,6 @@
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/JuanchoSL/apivirustotal",
-    "minimum-stability": "dev",
     "keywords": [
         "log",
         "debug"
@@ -28,13 +27,13 @@
         "psr/http-client": "1.0.*",
         "psr/log": "^3.0",
         "juanchosl/httpdata": "^1.0",
-        "juanchosl/validators": "1.0.*@dev",
-        "juanchosl/datamanipulation": "1.0.*@dev"
+        "juanchosl/validators": "1.0.*",
+        "juanchosl/datamanipulation": "1.0.*"
     },
     "require-dev": {
         "phpunit/phpunit": "9.6.*",
         "phpstan/phpstan": "1.12.*",
-        "juanchosl/curlclient": "dev-develop",
+        "juanchosl/curlclient": "1.0.*@dev",
         "juanchosl/logger": "1.1.*"
     },
     "autoload": {
